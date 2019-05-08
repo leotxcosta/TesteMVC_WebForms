@@ -75,6 +75,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebForm1.aspx" />
     <None Include="packages.config" />
     <Content Include="Views\HelloWorld\TesteRazor.cshtml" />
     <Content Include="Views\HelloWorld\TesteMasterPage.aspx" />
@@ -112,6 +113,13 @@
     </Compile>
     <Compile Include="Views\Shared\Menu.ascx.designer.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

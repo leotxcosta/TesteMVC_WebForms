@@ -1,5 +1,4 @@
-﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-<%@ Import Namespace="System.Web.Mvc.Html" %>
+﻿<%@ Master Language="C#" Inherits="System.Web.UI.MasterPage" %>
 <%@ Register Src="~/Views/Shared/Menu.ascx" TagPrefix="uc1" TagName="Menu" %>
 
 
@@ -17,7 +16,6 @@
 			<uc1:Menu runat="server" id="Menu" />
     <div>
         <h1>Masterpage</h1>
-        <%= Html.ActionLink("Teste", "Teste") %>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
