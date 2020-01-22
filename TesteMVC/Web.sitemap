@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="" title=""  description="">
-    <siteMapNode url="~/HelloWorld/Index" title="Index"  description="" />
-    <siteMapNode url="~/HelloWorld/Teste" title="Teste"  description="" />
-    <siteMapNode url="~/HelloWorld/TesteMasterPage" title="TesteMasterPage"  description="" />
-    <siteMapNode url="~/HelloWorld/TesteRazor" title="TesteRazor"  description="" />
-    <siteMapNode url="~/WebForm1.aspx" title="Teste WebForms"  description="" />
-  </siteMapNode>
+	<siteMapNode>
+		<siteMapNode url="" title="Páginas MVC"  description="">
+			<siteMapNode url="~/HelloWorld/Index" title="Index"  description="" />
+			<siteMapNode url="~/HelloWorld/Teste" title="Teste"  description="" />
+			<siteMapNode url="~/HelloWorld/TesteMasterPage" title="TesteMasterPage"  description="" />
+			<siteMapNode url="~/HelloWorld/TesteRazor" title="TesteRazor"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="Páginas WebForms"  description="">
+			<siteMapNode url="~/WebForm1.aspx" title="Teste WebForms"  description="" />
+		</siteMapNode>
+	</siteMapNode>
 </siteMap>

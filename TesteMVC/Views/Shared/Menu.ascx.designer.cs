@@ -19,7 +19,7 @@ namespace TesteMVC.Views.Shared {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
+        protected global::TesteMVC.CSSMenu Menu1;
         
         /// <summary>
         /// SiteMapDataSource1 control.
